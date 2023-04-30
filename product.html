@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is an Ecommerce Project for making annex express">
+    <title>Ecommerce Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!-- navbar starts here -->
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+            <ul class="nav-upper flex-space-around">
+            <li class="nav__list"><a href="index.html" class="nav__link">Home</a></li>
+            <li class="nav__list"><a href="register.html" class="nav__link">Register</a></li>
+            <li class="nav__list"><a href="login.html" class="nav__link">Login</a></li>
+            <li class="nav__list"><a href="index.html" class="nav__link">Logout</a></li>
+            <li class="nav__list"><a href="contact.html" class="nav__link">Contact</a></li>
+            <li class="nav__list"><a href="profile.html" class="nav__link"><img src="images/DSC_8906.JPG" alt="profile-icon" class="profile-icon"></a></li>
+        </ul>
+
+        <ul class="nav-lower flex-space-around">
+            <li class="nav__list"><a href="index.html" class="nav__brand nav__link">Annex Express</a></li>
+            <li class="nav__list"><a href="cart.html" class="nav__link"><span><i class="fa-solid fa-cart-shopping"></i></span>Cart 2 products - $124.44</a></li>
+        </ul>
+    </nav>
+    <!-- navbar ends here -->
+
+    <main class="flex-center">
+        <div class="main-content">
+            <section class="product-details flex-center">
+                <div class="product__details-left flex-center">
+                    <img src="images/c-d-x-PDX_a_82obo-unsplash.jpg" alt="product1">
+                </div>
+                <div class="product__details-right">
+                    <h3 class="product__name">Sony V-4 Headphone</h3>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot black"></span>
+                            <span class="dot red"></span>
+                        </p>
+                        <p class="product__desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit placeat debitis, veniam provident error quam quae quos. Magni adipisci impedit illum. Magnam fugiat omnis sed!
+                        </p>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, dolores optio in delectus accusamus dolorum sed consequatur. Animi assumenda, totam consequuntur omnis sapiente repellat laboriosam! Assumenda odio iusto suscipit! Deserunt accusantium culpa doloribus ducimus eligendi natus qui commodi repellendus repudiandae, ipsum provident eum libero veniam fugiat eius. Velit, minima consequatur!
+                        </p>
+                        <h4 class="product__category">Category:Headphone</h4>
+                        <h4 class="product__price">Price: $225.99</h4>
+                        <p class="product__rating">4.5/5</p>
+                        <button class="btn product__btn">Add to Cart</button>
+                        <button class="btn product__btn">Back To Shopping</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- footer starts here -->
+
+        <footer class="footer flex-space-around">
+            <div class="flex-space-around">
+                <label for="subscribe">Subscribe to newsletter:</label>
+                <input type="email" id="subscribe" name="subscribe" class="footer__input" placeholder="Your Email Address">
+                <button class="btn btn__subscribe">subscribe</button>
+            </div>
+            
+            <div>
+                &copy;Copyright 2023 Annex Express. All rights Reserved.
+            </div>
+        </footer>
+
+    <!-- footer ends here -->
+
+    <script src="./scripts/index.js"></script>
+</body>
+</html>
